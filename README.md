@@ -2,25 +2,24 @@
 
 If you’re seeking new office space, new equipment for your business or even another job, Wanted provides an excellent opportunity to target your post to any field or type of business.
 
-## Get the app
+<a href="https://itunes.apple.com/us/app/wanted-tell-us-what-you-want/id1323998719?ls=1&mt=8" title="Download From App Store" class="ios-download">
+    <img style="width: 200px;" src="./preview/apple-store-logo.png" alt="Download From App Store">
+</a>
 
-Release versions of the app are available here:
-* [Wanted for iOS](https://itunes.apple.com/us/app/wanted-tell-us-what-you-want/id1323998719?ls=1&mt=8)
-on the iTunes App Store
+## 1. Building
 
-## Building and Running
+### 1.1. Pod install third party libraries
 
-### Minimum Requirements
-* [Xcode](https://itunes.apple.com/us/app/xcode/id497799835) - The easiest way to get Xcode is from the [App Store](https://itunes.apple.com/us/app/xcode/id497799835?mt=12), but you can also download it from [developer.apple.com](https://developer.apple.com/) if you have an AppleID registered with an Apple Developer account.
+Leanote for iOS uses Cocoapods (http://cocoapods.org/) to manage third party libraries. 
 
-## Development
+Run `pod install` from the command line to install dependencies for the project.
 
-#### Swift
-* [swift.org API Design Guidelines](https://swift.org/documentation/api-design-guidelines/)
+*The current version of CocoaPods is recommended.*
 
-### Third-party Dependencies
-We use [cocoapods](https://github.com/CocoaPods/CocoaPods) to manage third-party native dependencies.
+### 1.2. Run On Xcode
 
-## Getting help
+Launch the workspace by either double clicking on iwantapp.xcworkspace file, or launch Xcode and choose File > Open and browse to iwantapp.xcworkspace.
+
+## 2. Getting help 
 
 Please contact sfa.alptekin@gmail.com
