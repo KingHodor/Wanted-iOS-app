@@ -20,6 +20,10 @@ Run `pod install` from the command line to install dependencies for the project.
 
 Launch the workspace by either double clicking on iwantapp.xcworkspace file, or launch Xcode and choose File > Open and browse to iwantapp.xcworkspace.
 
-## 2. Getting help 
+## 2. Preview
+
+![](./preview/sc-all.png)
+
+## 3. Getting help 
 
 Please contact sfa.alptekin@gmail.com
