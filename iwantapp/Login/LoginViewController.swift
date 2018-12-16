@@ -116,18 +116,6 @@ class LoginViewController: UIViewController, LoginViewDelegate {
         }
     }
     
-    //function is fetching the user data
-    //    {
-    //        email = "sfa.alptekin@gmail.com";
-    //        id = 345367215924404;
-    //        name = "Ahmet Alptekin";
-    //        picture =     {
-    //            data =         {
-    //            "is_silhouette" = 0;
-    //            url = "https://scontent.xx.fbcdn.net/v/t1.0-1/19702374_304390783355381_6760321373964559784_n.jpg?oh=78af4b0737cb219fe9e62158732f0e0f&oe=5A867F5F";
-    //            };
-    //        };
-    //    }
     func getFBUserData(){
         if((FBSDKAccessToken.current()) != nil){
             FBSDKGraphRequest(graphPath: "me", parameters: ["fields": "id, name, picture.type(large), email"]).start(completionHandler: { (connection, result, error) -> Void in
