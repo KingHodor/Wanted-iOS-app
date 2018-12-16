@@ -10,7 +10,7 @@ If you’re seeking new office space, new equipment for your business or even an
 
 ### 1.1. Pod install third party libraries
 
-Leanote for iOS uses Cocoapods (http://cocoapods.org/) to manage third party libraries. 
+Wanted for iOS uses Cocoapods (http://cocoapods.org/) to manage third party libraries. 
 
 Run `pod install` from the command line to install dependencies for the project.
 
